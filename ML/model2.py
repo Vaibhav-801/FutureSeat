@@ -29,9 +29,11 @@ def predict_rank(percentile:float,year:int)->int:
     """
     Advance percentile to rank conversion
     """
+    
     if percentile<0 or percentile>100:
         raise ValueError("percentile must be between 0 and 100")
     total_student=get_student_count(year)
     rank=(100-percentile)*total_student/100
     return math.ceil(rank)
+
 
