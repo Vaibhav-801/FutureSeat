@@ -5,7 +5,6 @@ from sklearn.metrics import mean_absolute_error, r2_score
 import joblib
 
 df = pd.read_csv("D:/final2 jee.csv")
-
 X = df[["Marks"]]
 y = df["Percentile"]
 
@@ -24,3 +23,4 @@ print("R2:", round(r2_score(y_test, prediction), 4))
 joblib.dump(model, "model1_marks_to_percentile.pkl")
 
 print("Model saved successfully")
+
