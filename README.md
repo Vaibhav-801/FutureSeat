@@ -1,16 +1,55 @@
-# React + Vite
+# FutureSeat
+Smart College Admission Strategy Platform
+FutureSeat is an intelligent web platform designed to help students make better college admission decisions using historical cutoff data and data-driven insights. The platform analyzes admission trends and provides structured recommendations to guide students during the counseling process.
+Instead of manually checking multiple websites for cutoff data, FutureSeat organizes the information into a clear and interactive interface that helps students understand their realistic college options and plan their admission strategy effectively.
+# Problem
+During engineering admission counseling, students face several challenges:
+Cutoff data is scattered across different sources
+Students do not know which colleges are realistic options
+No clear distinction between safe and risky choices
+Difficult to plan a round-wise counseling strategy
+Limited tools to compare colleges easily
+Because of this, students often make decisions based on guesswork instead of data.
+# Solution
+FutureSeat transforms raw cutoff data into meaningful insights and helps students:
+Analyze admission possibilities based on rank
+Identify safe, target, and ambitious college options
+Compare colleges and branches easily
+Understand historical cutoff trends
+Plan a smarter admission strategy
+# Features
+- College Discovery
+Search and explore engineering colleges with structured information.
+- Cutoff Analysis
+View historical admission cutoff data for different colleges and branches.
+- Smart Admission Insights
+Understand which colleges are realistic based on rank and past trends.
+- Trend Visualization
+Interactive charts showing cutoff trends across years.
+- College Comparison
+Compare colleges, branches, and admission difficulty.
+- Strategy Planner
+Helps students build a better admission plan during counseling rounds.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Tech Stack
+- Frontend
+React (Vite)
+Tailwind CSS
+Chart libraries for visualization
+- Backend
+Python / FastAPI (API layer)
+- Data & ML
+Python
+Scikit-learn
+- Database
+PostgreSQL
 
-Currently, two official plugins are available:
+# Future Improvements
+- Multi-exam support (JEE, MHT-CET, etc.)
+- Placement and ROI insights
+- Advanced admission probability models
+- AI-based counseling assistant
+- College location and campus insights
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Vision
+FutureSeat aims to simplify the college admission process by transforming complex admission data into clear, structured insights that help students make confident and informed decisions.
