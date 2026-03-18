@@ -11,7 +11,7 @@ class CollegeCreate(CollegeBase):
     pass
 
 
-class CollegeOut(CollegeBase):
+class CollegeResponse(CollegeBase):
     id: int
 
     class Config:
